@@ -32,3 +32,14 @@ console.log(person.remark); //Will print "Bla bla"
 modifyObject(person);
 //Print object property after passing it to the function.
 console.log(person.remark); //Will print "This is a proper remark."
+
+//Following is an Arrow function
+()=>{console.log("Hello from an arrow function.")} //doesn't really output anything.
+
+const elements = [
+  "hydrogen",
+  "helium",
+  "lithium"
+];
+
+console.log(elements.map(element=>element.length));
